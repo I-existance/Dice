@@ -1,0 +1,10 @@
+step = 3.14
+goal = 360
+angle = step
+count = 0
+
+while angle != goal:
+  print(angle)
+  count += 1
+  angle += step
+print(f"Took {count}"
